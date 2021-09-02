@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Archive</title>
+    <!--bootstrap link--> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <h1 class= "text-center mt-5">Welcome To Book Archive</h1>
+
+
+
+    <div class="input-group mb-3 mt-5 mx-auto w-50">
+        <input type="text" class="form-control" placeholder="Book Name" aria-label="Recipient's username" aria-describedby="button-addon2" id="book-search">
+        <button onclick="searchBook()" class="btn btn-outline-secondary" type="button">Search</button>
+      </div>
+
+
+      <!-- show book no. -->
+
+      <div id="search-number" class="row row-cols-1 row-cols-md-3 g-4">
+        
+      </div>
+
+      <!-- show book details -->
+
+      <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+        
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/books.js"></script>
+</body>
+</html>
